@@ -1,3 +1,10 @@
+## 목차
+* [세이브](#세이브-set_savecsv_df-pddataframe-name-str--savedatacsv-path-str--)
+* [컬럼 드랍](#컬럼-드랍-get_dropcolms_df-pddataframe-dropcolms-list---pddataframe)
+* [Object 타입 컬럼만 반환](#object-타입-컬럼만-반환-get_allobjtype_df-pddataframe---pddataframe)
+* [수치형 컬럼만 반환](#수치형-컬럼만-반환-get_allnumtype_df-pddataframe---pddataframe)
+
+
 # EasyPand (판다스 랩핑)
 
 # 세이브 : Set_SaveCSV(_df: pd.DataFrame, _name: str = 'saveData.csv', _path: str = '')
