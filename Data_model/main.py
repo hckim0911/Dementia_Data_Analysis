@@ -38,7 +38,6 @@ for name, model in models.items():
         ('clf', model)
         ])
     
-    
     # 파이프라인 쓸거면 그리디서치 파라미터 키 값이 clf__가 접두사로 들어가야함
     #params[name] = {f'clf__{k}': v for k, v in params[name].items()}
     grid_model = GridSearchCV(estimator=pipe, param_grid={f'clf__{k}': v for k, v in params[name].items()}, cv=cv, scoring='f1_macro', n_jobs=-1)
