@@ -63,3 +63,7 @@ for fold, (train_idx, val_idx) in enumerate(cv.split(X, y)):
     conf_matrices.append(cm)
 
 print_cv_results(acc_scores, f1_scores, conf_matrices)
+
+# %load_ext tensorboard
+# %tensorboard --logdir logs/fit
+# %tensorboard --logdir logs/exp_lr0.0001
