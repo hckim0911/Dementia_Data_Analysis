@@ -21,4 +21,4 @@
     * Source: [Combined Dataset](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=226)
 ## Modules
 
-* [Model Training Module](Data_Analysis_module/README.md)
+* [Model Training Module](https://github.com/bluesky0911/Dementia_Data_Analysis/tree/master/Data_Analysis_Module/README.md)
