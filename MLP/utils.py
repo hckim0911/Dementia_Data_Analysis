@@ -4,8 +4,14 @@ import pandas as pd
 import random
 
 def set_seed(seed=42):
+    # np.random.seed(seed)
+    # tf.random.set_seed(seed)
+    # random.seed(seed)
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    os.environ['TF_DETERMINISTIC_OPS'] = '1'
+    tf.keras.utils.set_random_seed(seed)
+    tf.config.experimental.enable_op_determinism()
     np.random.seed(seed)
-    tf.random.set_seed(seed)
     random.seed(seed)
 
 def preprocessing(df, drop_cols):
