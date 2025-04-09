@@ -2,7 +2,7 @@
 
 ## Purpose
 
-* Project's main objectives and specific goals / Core questions to be addressed
+* To verify the feasibility of using sleep and gait data for proactive monitoring and identification of dementia high-risk groups
 
 ## Exploratory Questions
 
